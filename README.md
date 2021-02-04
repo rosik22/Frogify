@@ -1,7 +1,7 @@
 # Frogify
 This game is a university project. Frogify is a C++ game clone of Frogger, written with SDL. 
 
-# Dependencies
+** Dependencies **
 SDL2.lib
 SDL2main.lib
 SDL2_image.lib
