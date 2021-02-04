@@ -1,0 +1,37 @@
+﻿Engine.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: bool __cdecl Engine::Init(void)" (?Init@Engine@@QEAA_NXZ)
+Texture.obj : error LNK2001: unresolved external symbol SDL_GetError
+Engine.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: void __cdecl Engine::TextDraw(char)" (?TextDraw@Engine@@QEAAXD@Z)
+Engine.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: bool __cdecl Engine::Init(void)" (?Init@Engine@@QEAA_NXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_GetWindowSurface referenced in function "public: bool __cdecl Engine::Init(void)" (?Init@Engine@@QEAA_NXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl Engine::Clean(void)" (?Clean@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Engine::Events(void)" (?Events@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: bool __cdecl Engine::Init(void)" (?Init@Engine@@QEAA_NXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: void __cdecl Engine::TextDraw(char)" (?TextDraw@Engine@@QEAAXD@Z)
+Texture.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+Engine.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl Engine::Update(void)" (?Update@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl Engine::TextDraw(char)" (?TextDraw@Engine@@QEAAXD@Z)
+Engine.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl Engine::Update(void)" (?Update@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: void __cdecl Engine::TextDraw(char)" (?TextDraw@Engine@@QEAAXD@Z)
+Texture.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
+Engine.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: void __cdecl Engine::Clean(void)" (?Clean@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: void __cdecl Engine::Update(void)" (?Update@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: bool __cdecl Engine::Init(void)" (?Init@Engine@@QEAA_NXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl Engine::Clean(void)" (?Clean@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "public: bool __cdecl Engine::Init(void)" (?Init@Engine@@QEAA_NXZ)
+Engine.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "public: bool __cdecl Engine::Init(void)" (?Init@Engine@@QEAA_NXZ)
+Engine.obj : error LNK2019: unresolved external symbol TTF_RenderText_Solid referenced in function "public: void __cdecl Engine::Update(void)" (?Update@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "public: bool __cdecl Engine::Init(void)" (?Init@Engine@@QEAA_NXZ)
+Engine.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "public: bool __cdecl Engine::Init(void)" (?Init@Engine@@QEAA_NXZ)
+Engine.obj : error LNK2019: unresolved external symbol Mix_FreeMusic referenced in function "public: void __cdecl Engine::Clean(void)" (?Clean@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function "public: void __cdecl Engine::Update(void)" (?Update@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol Mix_PlayingMusic referenced in function "public: void __cdecl Engine::Update(void)" (?Update@Engine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol IMG_Quit referenced in function "public: void __cdecl Engine::Clean(void)" (?Clean@Engine@@QEAAXXZ)
+Texture.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "public: void __cdecl Texture::Draw(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,struct SDL_Rect,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?Draw@Texture@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHHHUSDL_Rect@@0@Z)
+Texture.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: bool __cdecl Texture::Load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?Load@Texture@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Projects\SDL2-2.0.12\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Projects\SDL2-2.0.12\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Projects\SDL2-2.0.12\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Projects\SDL2-2.0.12\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Projects\SDL2-2.0.12\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Projects\Frogify\x64\Debug\frogify.exe : fatal error LNK1120: 28 unresolved externals

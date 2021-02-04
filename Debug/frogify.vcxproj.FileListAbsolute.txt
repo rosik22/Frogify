@@ -1,0 +1,4 @@
+D:\Projects\frogify\Debug\frogify.exe
+D:\Projects\frogify\Debug\frogify.pdb
+D:\Projects\fog_backup\frogify\Debug\frogify.exe
+D:\Projects\fog_backup\frogify\Debug\frogify.pdb
